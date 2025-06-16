@@ -113,5 +113,5 @@ tag_archive:
   type: liquid
   path: /tags/
 
-custom_css:
-  - /assets/css/custom.scss
+#custom_css:
+ # - /assets/css/custom.scss
