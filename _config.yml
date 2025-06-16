@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Ernest Amoh"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Master's student in Environmental Process Engineering @ Universität Stuttgart | CFD for pollution control and waste valorization systems."
+  bio    : "CFD for pollution control and waste valorization systems"
 #  links:
 #    - label: "Website"
 #      icon: "fas fa-fw fa-link"
