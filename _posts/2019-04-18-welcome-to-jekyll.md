@@ -1,6 +1,6 @@
 ---
 title: "2D Convection-Diffusion Solver with Finite Difference Method"
-date: 2023-11-15T14:30:00+01:00
+date: 2025-06-16T21:20:00+01:00
 categories:
   - CFD
   - Numerical Methods
