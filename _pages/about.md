@@ -4,8 +4,12 @@ title: "About Me"
 permalink: /about/
 ---
 
-I’m Paul, a Master's student specializing in Computational Fluid Dynamics (CFD).  
-This site is a portfolio of my simulations, tools, and technical blog.
+I'm Ernest, a Master's candidate in **Air Quality Control, Solid Waste and Waste Water Process Engineering** at Universität Stuttgart, specializing in **Computational Fluid Dynamics (CFD)**. My research focuses on optimizing air/water pollution control systems, waste valorization processes, and urban drainage infrastructure using CFD modeling and sustainable process engineering.
 
-Tools: OpenFOAM, Python, ParaView, MATLAB  
-Interests: Flow simulations, turbulence modeling, solver development
+**Core CFD Applications:**  
+- Turbulent dispersion modeling for air pollutant mitigation  
+- Multiphase reactor simulations in water/wastewater treatment  
+- Thermal process optimization for waste-to-energy conversion  
+
+**Toolbox:**  
+OpenFOAM  • ParaView • Python • MATLAB 
