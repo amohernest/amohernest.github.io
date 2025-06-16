@@ -15,7 +15,7 @@ tags:
 
 This MATLAB implementation solves the 2D convection-diffusion equation using **implicit time discretization** and **finite difference method**. The code models scalar transport (e.g., temperature or concentration) in a fluid flow field with configurable boundary conditions.
 
-[**View Full Code on GitHub**](https://github.com/yourusername/CFD-solver) <!-- REPLACE WITH YOUR ACTUAL LINK -->
+[**View Full Code on GitHub**](https://github.com/amohernest/CFD-Basics/blob/main/2D_FiniteDifferences_ImplicitDiscretization) <!-- REPLACE WITH YOUR ACTUAL LINK -->
 
 ### Physical Setup
 - **Domain**: 1m × 1m square
