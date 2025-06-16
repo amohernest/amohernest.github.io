@@ -20,7 +20,7 @@ description: >-
   Computational Fluid Dynamics (CFD) for optimizing environmental systems
 baseurl: "" # leave empty if site is at root domain
 github_username: amohernest
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: neon
 search: true
 
 # Build settings
