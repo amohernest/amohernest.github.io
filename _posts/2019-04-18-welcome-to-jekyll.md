@@ -1,29 +1,50 @@
 ---
-title: "Welcome to Jekyll!"
-date: 2019-04-18T15:34:30-04:00
+title: "2D Convection-Diffusion Solver with Finite Difference Method"
+date: 2023-11-15T14:30:00+01:00
 categories:
-  - blog
+  - CFD
+  - Numerical Methods
 tags:
-  - Jekyll
-  - update
+  - MATLAB
+  - Finite Difference
+  - Upwind Scheme
+  - Implicit Discretization
 ---
 
-You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+## Solving Convection-Dominated Transport Problems
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+This MATLAB implementation solves the 2D convection-diffusion equation using **implicit time discretization** and **finite difference method**. The code models scalar transport (e.g., temperature or concentration) in a fluid flow field with configurable boundary conditions.
 
-Jekyll also offers powerful support for code snippets:
+[**View Full Code on GitHub**](https://github.com/yourusername/CFD-solver) <!-- REPLACE WITH YOUR ACTUAL LINK -->
 
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
+### Physical Setup
+- **Domain**: 1m × 1m square
+- **Flow**: Uniform 45° velocity field (u = 0.01 m/s)
+- **Boundary Conditions**:
+  - Left wall: Fixed temperature (T=1)
+  - Bottom wall: Fixed temperature (T=0)
+  - Top/right walls: Zero-gradient (outflow)
+- **Parameters**: Pure convection (α=0), Δt=2s, t_end=200s
+
+## Simulation Results
+
+
+
+## Key Numerical Features
+```matlab
+%% Core Algorithm Structure
+while t < t_end
+    t = t + dt;
+    
+    % Assemble matrix: Time + Convection - Diffusion
+    Ab = ddt(T,dt) + div(T,ux,uy,dx,dy) - laplacian(T,alpha,dx,dy);
+    
+    % Apply boundary conditions
+    Ab = apply_boundaries(Ab,T);
+    
+    % Solve linear system
+    T = solve(Ab,T);
+    
+    % Visualize results
+    plot2D(x,y,t,T);
 end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-```
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
