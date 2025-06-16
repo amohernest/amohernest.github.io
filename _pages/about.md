@@ -4,12 +4,24 @@ title: "About Me"
 permalink: /about/
 ---
 
-I'm Ernest, a Master's candidate in **Air Quality Control, Solid Waste and Waste Water Process Engineering** at Universität Stuttgart, specializing in **Computational Fluid Dynamics (CFD)**. My research focuses on optimizing air/water pollution control systems, waste valorization processes, and urban drainage infrastructure using CFD modeling and sustainable process engineering.
+Hi! 👋 I'm **Ernest**, a Master's candidate in **Air Quality Control, Solid Waste and Waste Water Process Engineering** at Universität Stuttgart. This website is my portfolio where I share environmental CFD projects, and publish simulation techniques.
 
-**Core CFD Applications:**  
-- Turbulent dispersion modeling for air pollutant mitigation  
-- Multiphase reactor simulations in water/wastewater treatment  
-- Thermal process optimization for waste-to-energy conversion  
+### 🎓 Background & Research
+- Master's in Environmental Process Engineering @ Universität Stuttgart
+- **Research focus**: Optimizing air/water pollution control systems, waste valorization processes, and urban drainage infrastructure using CFD modeling
+- Current coursework: Water Treatment, Air Pollutant Measurement, Urban Drainage Design
 
-**Toolbox:**  
-OpenFOAM  • ParaView • Python • MATLAB 
+### 🛠️ Skills & Tools
+- **CFD Software**: OpenFOAM
+- **Programming**: Python, MATLAB
+- **Post-Processing**: ParaView
+- **Simulation Areas**: 
+  - Multiphase flows in treatment systems
+  - Pollutant dispersion modeling
+  - Fluid-structure interaction in drainage networks
+  - Thermal waste conversion processes
+
+### 🔗 Let's Connect
+- [GitHub](https://github.com/amohernest) - Explore my CFD code repositories
+- [LinkedIn](https://www.linkedin.com/in/ernestamoh/) - Professional network
+- [Email Me](amohernest@gmail.com) - Collaboration inquiries
