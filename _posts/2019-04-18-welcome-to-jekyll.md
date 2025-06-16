@@ -27,7 +27,8 @@ This MATLAB implementation solves the 2D convection-diffusion equation using **i
 - **Parameters**: Pure convection (α=0), Δt=2s, t_end=200s
 
 ## Simulation Results
-
+[Result for 100x100]({{ site.url }}{{ site.baseurl }}/assets/images/for100x100.png)
+[Result for 30x30]({{ site.url }}{{ site.baseurl }}/assets/images/for30x30.png)
 
 
 ## Key Numerical Features
