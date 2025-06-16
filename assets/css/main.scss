@@ -5,11 +5,9 @@ search: false
 
 @charset "utf-8";
 
-.page__lead {
-  font-family: $global-font-family;
-  font-size: $type-size-6;
-}
-
-
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+body {
+  font-size: 0.9rem; // smaller font
+}
