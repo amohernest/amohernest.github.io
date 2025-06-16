@@ -10,11 +10,6 @@ search: false
   font-size: $type-size-6;
 }
 
-body {
-  background-color: #121212 !important;
-  color: #eeeeee !important;
-  font-size: 0.8rem;
-}
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
